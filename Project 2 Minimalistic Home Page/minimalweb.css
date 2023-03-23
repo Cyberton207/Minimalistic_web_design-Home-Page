@@ -1,0 +1,86 @@
+/* 
+fonts for headings = 
+fonts for tagline = font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+
+*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #edf1fd;
+    box-sizing: border-box;
+
+}
+
+nav {
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+/* Nav ul display flex make nav bar as horizontal */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+/* logo */
+nav ul li img {
+    width: 100px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_main_section {
+    width: 40%;
+
+}
+.left_main_section h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.left_main_section p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 5% 0;
+}
+.left_main_section button {
+    padding: 10px 10px;
+    border: none;
+    background-color: #357951;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.left_main_section button:hover {
+    background-color: #2a5f3d;
+    color: #fff;
+}
+/* .right_main_section
+{
+    padding: 7%;
+} */
+.right_main_section div img{
+    width: 30%;
+}
+.right_main_section div{
+    margin-bottom: 15px;
+}
+.rightmain div img:first-child {
+    margin-right: 20px;
+  }
